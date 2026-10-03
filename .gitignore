@@ -1,0 +1,30 @@
+﻿# Artefatos de validação e perfis temporários de navegador
+.validation/
+
+# Dependências, caches e resultados gerados
+node_modules/
+.cache/
+.npm/
+coverage/
+playwright-report/
+test-results/
+*.log
+*.tmp
+*.temp
+*~
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+credentials*.json
+*.pem
+*.key
+
+# Metadados do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
